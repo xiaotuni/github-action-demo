@@ -16,6 +16,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         PUBLISH_DIR: ./public
-        FOLDER: ./public
+        FOLDER: build
         BUILD_SCRIPT: npm install && npm run build
-        
