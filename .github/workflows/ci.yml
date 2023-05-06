@@ -18,3 +18,4 @@ jobs:
         PUBLISH_DIR: ./public
         FOLDER: ./public
         BUILD_SCRIPT: npm install && npm run build
+        
